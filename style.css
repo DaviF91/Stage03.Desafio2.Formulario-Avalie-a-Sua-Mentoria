@@ -100,16 +100,36 @@ fieldset {
   gap: 32px;
 }
 
+.fieldset-wrapper legend {
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+
+color: #253B51;
+
+  border-bottom: 1px solid #e6e6f0;
+  padding-bottom: 8px;
+  text-align: center;
+  margin-bottom: 32px;
+
+}
+
 .col-2 {
   display: flex;
   gap: 32px;
   margin-bottom: 16px;
 }
 
+.col-2 .input-wrapper input {
+  width: 300px;
+}
+
 .input-wrapper {
   display: flex;
   flex-direction: column;
   padding: 0px;
+  
 }
 
 .input-wrapper label {
@@ -136,6 +156,10 @@ fieldset {
   border: 1px solid #e6e6f0;
   border-radius: 8px;
   height: 56px;
-  width: 300px;
+  width: 100%;
   padding: 0px 24px;
+  margin-bottom: 8px;
 }
+
+
+
