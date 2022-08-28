@@ -54,14 +54,44 @@
             <legend>INFORMAÇÕES DO MENTOR</legend>
             <div class="input-wrapper">
               <label for="name-mentor">Selecione quem foi o seu mentor</label>
-              <select id="name-mentor">
+              <select id="name-mentor" required>
                 <option value="Jose">Jose</option>
                 <option value="Carlos">Carlos</option>
                 <option value="Henrique">Henrique</option>
               </select> 
+              
+              <div class="input-wrapper">
+                <label for="feedback-mentor">Feedback sobre o mentor</label>
+                <textarea  id="feedback-mentor" ></textarea>                
+              </div>
+
+              <div class="checkbox-wrapper">
+                <input type="checkbox" id="duv-mentor">
+                <label for="duv-mentor">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
+              </div>
+
             </div>
           </div>
         </fieldset>
+          <div class="fieldset-wrapper">
+            <legend>AGENDANDO PRÓXIMA MENTORIA</legend>
+            <div class="col-3">
+              <div class="input-wrapper">
+                <label for="date-mentor">Data <span>(DD/MM/AAAA)</span></label>
+                <input type="date" id="date-mentor" required>
+              </div>
+              <div class="input-wrapper">
+                <label for="timeBegin-mentor">Das</label>
+                <input type="time" id="timeBegin-mentor" required>
+              </div>
+              <div class="input-wrapper">
+                <label for="timeEnd-mentor">Até</label>
+                <input type="time" id="timeEnd-mentor" required>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <button class="button">Salvar</button>
       </form>
     </div>
   </body>
