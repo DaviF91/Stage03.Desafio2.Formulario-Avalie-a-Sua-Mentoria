@@ -20,11 +20,12 @@ body::before {
   z-index: -1;
   top: 0px;
   left: 0px;
+  display: block;
 }
 
 .page {
   width: 750px;
-  margin: auto;
+  margin: 0px auto;
 }
 
 header {
@@ -81,12 +82,12 @@ header .image {
 }
 
 form {
-  position: absolute;
+  
   width: 750px;
   min-height: 300px;
 
   margin-bottom: 392px;
-  top: 464px;
+  margin-top: 180px;
   
   background: #ffffff;
   border-radius: 0px 0px 20px 20px;
